@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Welcome to",
+    "name": "Devthailao",
+    "title": "Professional Web Development",
+    "description": "A passionate Thai-Lao developer team creating stunning, high-performance websites and applications. We combine creativity with modern technologies to transform your ideas into digital reality.",
+    "cta": "View Our Work"
+  },
+  "services": {
+    "title": "My Quality Services",
+    "subtitle": "Whether you need a website to strengthen your business, or just want a beautiful and easy-to-use online space, DevThaiLao is ready to help you create the website of your dreams!",
+    "items": {
+      "webDesign": {
+        "title": "01 Web Design",
+        "description": "Devthailao focuses on designing websites that are not only beautiful but also easy to use and meet your business needs. With our professional design team, we'll help your website stand out and create a great first impression for visitors."
+      },
+      "mobileContent": {
+        "title": "02 Mobile Content",
+        "description": "Providing SMS, IVR, USSD, LINE services, connecting customer systems to messaging systems to ensure no news or information is missed. Supports all systems and networks."
+      },
+      "appDevelop": {
+        "title": "03 Application Develop",
+        "description": "Specializing in comprehensive application development that meets every need. Whether you need an app for business, service, or entertainment, we can create the most efficient app for you."
+      },
+      "customRequest": {
+        "title": "04 Customise on Request",
+        "description": "We understand that every business has different needs. Therefore, we provide website and application customization services according to your request. Let you get exactly what you want."
+      }
+    }
+  },
+  "about": {
+    "title": "Meet Our Team",
+    "subtitle": "Two passionate developers from Thailand and Laos",
+    "team": {
+      "thai": {
+        "name": "Mr. Werapat",
+        "role": "Full-Stack Developer",
+        "description": "Professional Developers providing services in Thailand",
+        "image": "/werapat.jpg"
+      },
+      "lao": {
+        "name": "Mr. Sirivathana",
+        "role": "Full-Stack Developer",
+        "description": "Professional Developers providing services in Laos",
+        "image": "/sirivathana.jpg"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Our Recent Works",
+    "subtitle": "Explore our latest projects and creative solutions",
+    "viewProject": "View Project"
+  },
+  "stats": {
+    "years": "Years Experience",
+    "projects": "Projects Completed",
+    "clients": "Happy Clients"
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Get in touch with us for your next project",
+    "cta": "Hire Us",
+    "phone": "Phone",
+    "line": "Line ID",
+    "email": "Email",
+    "close": "Close"
+  },
+  "footer": {
+    "copyright": "© 2026 Devthailao. All Rights Reserved",
+    "madeWith": "Made with ❤️ in Thailand & Laos"
+  },
+  "language": {
+    "en": "English",
+    "th": "ไทย",
+    "lo": "ລາວ"
+  },
+  "skills": {
+    "title": "Full Stack Developer Skills",
+    "subtitle": "Our comprehensive technology stack and expertise",
+    "mainRole": "FULL STACK DEVELOPER",
+    "roles": {
+      "frontend": {
+        "name": "FRONT END",
+        "categories": {
+          "basics": "Basics",
+          "frameworks": "Frameworks",
+          "styles": "Styles"
+        }
+      },
+      "backend": {
+        "name": "BACK END",
+        "categories": {
+          "technology": "Technology"
+        }
+      },
+      "database": {
+        "name": "DATABASE",
+        "categories": {
+          "rdbms": "RDBMS",
+          "nosql": "NoSQL",
+          "graph": "Graph",
+          "messageQueues": "Message Queues"
+        }
+      },
+      "devops": {
+        "name": "DEV OPS",
+        "categories": {
+          "infrastructure": "Infrastructure",
+          "automation": "Automation",
+          "virtualization": "Virtualization"
+        }
+      },
+      "mobile": {
+        "name": "MOBILE APP",
+        "categories": {
+          "android": "Android",
+          "ios": "iOS",
+          "crossPlatform": "Cross Platform"
+        }
+      }
+    }
+  }
+}
