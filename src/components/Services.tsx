@@ -1,4 +1,4 @@
-import type { Locale } from '@/i18n-config';
+'use client';
 
 interface ServicesProps {
     dictionary: {

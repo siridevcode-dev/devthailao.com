@@ -26,7 +26,6 @@ const Counter = ({ value }: { value: string }) => {
 
     useEffect(() => {
         setMounted(true);
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     useEffect(() => {

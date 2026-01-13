@@ -377,6 +377,7 @@ export default function Portfolio({ dictionary }: PortfolioProps) {
                                 className="portfolio-image"
                                 style={{ background: `linear-gradient(135deg, ${project.color}40, ${project.color}20)` }}
                             >
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     src={project.image}
                                     alt={project.title}

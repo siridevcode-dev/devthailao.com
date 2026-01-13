@@ -102,7 +102,7 @@ const skillsData: SkillRole[] = [
         color: '#8b5cf6',
         categories: [
             { name: 'rdbms', items: ['MSSQL', 'MySQL', 'Postgres'] },
-            { name: 'nosql', items: ['Mongo', 'Redis', 'Cassandra', 'CouchDB', 'Elasticsearch', 'Jenkins'] },
+            { name: 'nosql', items: ['NoSQL', 'Mongo', 'Redis', 'Cassandra', 'CouchDB', 'Elasticsearch', 'Jenkins'] },
             { name: 'graph', items: ['Neo4j', 'ArangoDB'] },
             { name: 'messageQueues', items: ['Kafka', 'SQS', 'ZeroMQ', 'RabbitMQ'] },
         ],
