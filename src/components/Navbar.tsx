@@ -23,9 +23,9 @@ interface NavbarProps {
 }
 
 const languages = [
-    { code: 'en', name: 'English', flag: '🇺🇸' },
-    { code: 'th', name: 'ไทย', flag: '🇹🇭' },
-    { code: 'lo', name: 'ລາວ', flag: '🇱🇦' },
+    { code: 'en', name: 'English' },
+    { code: 'th', name: 'ไทย' },
+    { code: 'lo', name: 'ລາວ' },
 ];
 
 export default function Navbar({ lang, dictionary }: NavbarProps) {
@@ -62,7 +62,6 @@ export default function Navbar({ lang, dictionary }: NavbarProps) {
                             className="lang-btn"
                             onClick={() => setIsLangOpen(!isLangOpen)}
                         >
-                            <span>{currentLang.flag}</span>
                             <span>{currentLang.name}</span>
                             <svg className="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -80,7 +79,6 @@ export default function Navbar({ lang, dictionary }: NavbarProps) {
                                             setIsLangOpen(false);
                                         }}
                                     >
-                                        <span>{language.flag}</span>
                                         <span>{language.name}</span>
                                     </button>
                                 ))}
