@@ -27,12 +27,17 @@ interface SkillsRoadmapProps {
                         basics: string;
                         frameworks: string;
                         styles: string;
+                        stateManagement: string;
+                        optimization: string;
                     };
                 };
                 backend: {
                     name: string;
                     categories: {
-                        technology: string;
+                        languageRuntime: string;
+                        apiStandards: string;
+                        architecture: string;
+                        security: string;
                     };
                 };
                 database: {
@@ -50,6 +55,8 @@ interface SkillsRoadmapProps {
                         infrastructure: string;
                         automation: string;
                         virtualization: string;
+                        monitoring: string;
+                        strategy: string;
                     };
                 };
                 mobile: {
@@ -71,9 +78,11 @@ const skillsData: SkillRole[] = [
         icon: '🎨',
         color: '#3b82f6',
         categories: [
-            { name: 'basics', items: ['HTML', 'CSS', 'Javascript'] },
-            { name: 'frameworks', items: ['React', 'Vue', 'Angular', 'Webpack'] },
-            { name: 'styles', items: ['Bootstrap', 'Material UI'] },
+            { name: 'basics', items: ['HTML', 'HTML5', 'CSS', 'CSS3', 'Responsive Design', 'Javascript'] },
+            { name: 'frameworks', items: ['React', 'Next.js 15+', 'Vue', 'Vue 4', 'Angular', 'Webpack'] },
+            { name: 'styles', items: ['Tailwind CSS', 'CSS-in JS', 'Bootstrap', 'Material UI'] },
+            { name: 'stateManagement', items: ['Advanced state management', 'Redux Toolkit', 'Zustand', 'Signals'] },
+            { name: 'optimization', items: ['Web performance optimization'] },
         ],
     },
     {
@@ -81,7 +90,10 @@ const skillsData: SkillRole[] = [
         icon: '💻',
         color: '#f97316',
         categories: [
-            { name: 'technology', items: ['PHP', 'Node', 'Ruby on Rails', 'Java (Spring)', 'ASP.NET', 'Redis'] },
+            { name: 'languageRuntime', items: ['Node.js', 'Express', 'Fastify', 'NestJS', 'Python', 'Python Django', 'FastAPI', 'Go Fiber', 'PHP', 'Ruby on Rails', 'Java (Spring)', 'ASP.NET'] },
+            { name: 'apiStandards', items: ['REST', 'GraphQL', 'gRPC'] },
+            { name: 'architecture', items: ['Asynchronous processing', 'Message Queues', 'Caching', 'Redis', 'Microservices'] },
+            { name: 'security', items: ['Security concepts', 'Authentication', 'JWT', 'OAuth2.1', 'API hardening'] },
         ],
     },
     {
@@ -90,7 +102,7 @@ const skillsData: SkillRole[] = [
         color: '#8b5cf6',
         categories: [
             { name: 'rdbms', items: ['MSSQL', 'MySQL', 'Postgres'] },
-            { name: 'nosql', items: ['Mongo', 'Cassandra', 'CouchDB', 'Elasticsearch'] },
+            { name: 'nosql', items: ['Mongo', 'Redis', 'Cassandra', 'CouchDB', 'Elasticsearch', 'Jenkins'] },
             { name: 'graph', items: ['Neo4j', 'ArangoDB'] },
             { name: 'messageQueues', items: ['Kafka', 'SQS', 'ZeroMQ', 'RabbitMQ'] },
         ],
@@ -100,9 +112,11 @@ const skillsData: SkillRole[] = [
         icon: '⚙️',
         color: '#eab308',
         categories: [
-            { name: 'infrastructure', items: ['NGINX', 'AWS', 'Azure', 'ELK'] },
-            { name: 'automation', items: ['Ansible', 'Chef', 'Jenkins'] },
+            { name: 'infrastructure', items: ['NGINX', 'Amazon Web Services (AWS)', 'Microsoft Azure', 'Google Cloud Platform', 'Cloudflare', 'ELK', 'Terraform', 'Serverless', 'Istio'] },
+            { name: 'automation', items: ['Ansible', 'CHEF', 'Puppet', 'Jenkins', 'Git', 'Blue-Green Deployments', 'Continuous Deployment'] },
             { name: 'virtualization', items: ['Docker', 'Bladecenter', 'Kubernetes', 'Vagrant', 'VMWare'] },
+            { name: 'monitoring', items: ['Prometheus', 'Elasticsearch', 'Performance Tuning'] },
+            { name: 'strategy', items: ['Security & Compliance', 'Disaster Recovery', 'Continuous Improvement', 'DevOps Culture'] },
         ],
     },
     {
@@ -162,7 +176,7 @@ export default function SkillsRoadmap({ dictionary }: SkillsRoadmapProps) {
                     {skillsData.map((role) => (
                         <div
                             key={role.name}
-                            className={`role-card ${activeRole === role.name ? 'active' : ''}`}
+                            className={`role-card${activeRole === role.name ? ' active' : ''}`}
                             style={{ '--role-color': role.color } as React.CSSProperties}
                             onClick={() => setActiveRole(activeRole === role.name ? null : role.name)}
                         >

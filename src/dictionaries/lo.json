@@ -40,13 +40,15 @@
         "subtitle": "ນັກພັດທະນາສອງຄົນຈາກປະເທດໄທ ແລະ ລາວ",
         "team": {
             "thai": {
-                "name": "Mr. Werapat",
+                "name": "Mr. Big",
+                "jobTitle": "Head of Development",
                 "role": "ນັກພັດທະນາ Full-Stack",
                 "description": "ນັກພັດທະນາມືອາຊີບ ທີ່ໃຫ້ບໍລິການໃນປະເທດໄທ",
                 "image": "/werapat.jpg"
             },
             "lao": {
                 "name": "Mr. Sirivathana",
+                "jobTitle": "Head of Development",
                 "role": "ນັກພັດທະນາ Full-Stack",
                 "description": "ນັກພັດທະນາມືອາຊີບ ທີ່ໃຫ້ບໍລິການໃນລາວ",
                 "image": "/sirivathana.jpg"
@@ -91,13 +93,18 @@
                 "categories": {
                     "basics": "ພື້ນຖານ",
                     "frameworks": "ເຟຣມເວີກ",
-                    "styles": "ສະໄຕລ໌"
+                    "styles": "ສະໄຕລ໌",
+                    "stateManagement": "ການຈັດການສະຖານະ",
+                    "optimization": "ການເພີ່ມປະສິດທິພາບ"
                 }
             },
             "backend": {
                 "name": "BACK END",
                 "categories": {
-                    "technology": "ເທັກໂນໂລຢີ"
+                    "languageRuntime": "ພາສາ ແລະ ລັນໄທມ໌",
+                    "apiStandards": "ມາດຕະຖານ API",
+                    "architecture": "ສະຖາປັດຕະຍະກຳ",
+                    "security": "ຄວາມປອດໄພ"
                 }
             },
             "database": {
@@ -114,7 +121,9 @@
                 "categories": {
                     "infrastructure": "ໂຄງສ້າງພື້ນຖານ",
                     "automation": "ລະບົບອັດຕະໂນມັດ",
-                    "virtualization": "Virtualization"
+                    "virtualization": "Virtualization",
+                    "monitoring": "ການຕິດຕາມກວດກາ",
+                    "strategy": "ຍຸດທະສາດ ແລະ ວັດທະນະທຳ"
                 }
             },
             "mobile": {

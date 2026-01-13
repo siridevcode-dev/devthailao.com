@@ -40,13 +40,15 @@
         "subtitle": "นักพัฒนาสองคนจากประเทศไทยและลาว",
         "team": {
             "thai": {
-                "name": "Mr. Werapat",
+                "name": "Mr. Big",
+                "jobTitle": "Head of Development",
                 "role": "นักพัฒนา Full-Stack",
                 "description": "นักพัฒนามืออาชีพ ที่ให้บริการในประเทศไทย",
                 "image": "/werapat.jpg"
             },
             "lao": {
                 "name": "Mr. Sirivathana",
+                "jobTitle": "Head of Development",
                 "role": "นักพัฒนา Full-Stack",
                 "description": "นักพัฒนามืออาชีพ ที่ให้บริการในลาว",
                 "image": "/sirivathana.jpg"
@@ -91,13 +93,18 @@
                 "categories": {
                     "basics": "พื้นฐาน",
                     "frameworks": "เฟรมเวิร์ค",
-                    "styles": "สไตล์"
+                    "styles": "สไตล์",
+                    "stateManagement": "การจัดการสถานะ",
+                    "optimization": "การเพิ่มประสิทธิภาพ"
                 }
             },
             "backend": {
                 "name": "BACK END",
                 "categories": {
-                    "technology": "เทคโนโลยี"
+                    "languageRuntime": "ภาษาและรันไทม์",
+                    "apiStandards": "มาตรฐาน API",
+                    "architecture": "สถาปัตยกรรม",
+                    "security": "ความปลอดภัย"
                 }
             },
             "database": {
@@ -114,7 +121,9 @@
                 "categories": {
                     "infrastructure": "โครงสร้างพื้นฐาน",
                     "automation": "ระบบอัตโนมัติ",
-                    "virtualization": "Virtualization"
+                    "virtualization": "Virtualization",
+                    "monitoring": "การตรวจสอบ",
+                    "strategy": "กลยุทธ์และวัฒนธรรม"
                 }
             },
             "mobile": {

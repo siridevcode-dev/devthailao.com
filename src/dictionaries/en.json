@@ -40,13 +40,15 @@
     "subtitle": "Two passionate developers from Thailand and Laos",
     "team": {
       "thai": {
-        "name": "Mr. Werapat",
+        "name": "Mr. Big",
+        "jobTitle": "Head of Development",
         "role": "Full-Stack Developer",
         "description": "Professional Developers providing services in Thailand",
         "image": "/werapat.jpg"
       },
       "lao": {
         "name": "Mr. Sirivathana",
+        "jobTitle": "Head of Development",
         "role": "Full-Stack Developer",
         "description": "Professional Developers providing services in Laos",
         "image": "/sirivathana.jpg"
@@ -91,13 +93,18 @@
         "categories": {
           "basics": "Basics",
           "frameworks": "Frameworks",
-          "styles": "Styles"
+          "styles": "Styles",
+          "stateManagement": "State Management",
+          "optimization": "Performance"
         }
       },
       "backend": {
         "name": "BACK END",
         "categories": {
-          "technology": "Technology"
+          "languageRuntime": "Language & Runtime",
+          "apiStandards": "API Standards",
+          "architecture": "Architecture",
+          "security": "Security"
         }
       },
       "database": {
@@ -114,7 +121,9 @@
         "categories": {
           "infrastructure": "Infrastructure",
           "automation": "Automation",
-          "virtualization": "Virtualization"
+          "virtualization": "Virtualization",
+          "monitoring": "Monitoring",
+          "strategy": "Strategy & Culture"
         }
       },
       "mobile": {
