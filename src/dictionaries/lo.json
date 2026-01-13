@@ -41,14 +41,14 @@
         "team": {
             "thai": {
                 "name": "Mr. Theerawat",
-                "jobTitle": "Head of Development",
+                "jobTitle": "Web Development Team Lead",
                 "role": "ນັກພັດທະນາ Full-Stack",
                 "description": "ນັກພັດທະນາມືອາຊີບ ທີ່ໃຫ້ບໍລິການໃນປະເທດໄທ",
                 "image": "/werapat.jpg"
             },
             "lao": {
                 "name": "Mr. Sirivathana",
-                "jobTitle": "Head of Development",
+                "jobTitle": "Web Development Team Lead",
                 "role": "ນັກພັດທະນາ Full-Stack",
                 "description": "ນັກພັດທະນາມືອາຊີບ ທີ່ໃຫ້ບໍລິການໃນລາວ",
                 "image": "/sirivathana.jpg"
