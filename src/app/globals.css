@@ -137,7 +137,37 @@ html[lang="lo"] body {
   gap: 16px;
 }
 
-.language-switcher {
+/* Desktop: Horizontal language buttons */
+.lang-desktop {
+  display: flex;
+  gap: 8px;
+}
+
+.lang-item {
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.lang-item:hover {
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+}
+
+.lang-item.active {
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  border-color: transparent;
+  color: white;
+}
+
+/* Mobile: Dropdown language switcher */
+.lang-mobile {
+  display: none;
   position: relative;
 }
 
@@ -747,6 +777,15 @@ html[lang="lo"] body {
 
   .mobile-toggle {
     display: flex;
+  }
+
+  /* Hide desktop language buttons, show mobile dropdown on mobile */
+  .lang-desktop {
+    display: none;
+  }
+
+  .lang-mobile {
+    display: block;
   }
 
   .hero-name,

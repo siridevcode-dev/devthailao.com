@@ -57,7 +57,21 @@ export default function Navbar({ lang, dictionary }: NavbarProps) {
                 </div>
 
                 <div className="nav-actions">
-                    <div className="language-switcher">
+                    {/* Desktop: Horizontal language buttons */}
+                    <div className="lang-desktop">
+                        {languages.map((language) => (
+                            <button
+                                key={language.code}
+                                className={`lang-item ${language.code === lang ? 'active' : ''}`}
+                                onClick={() => switchLanguage(language.code)}
+                            >
+                                {language.name}
+                            </button>
+                        ))}
+                    </div>
+
+                    {/* Mobile: Dropdown language switcher */}
+                    <div className="lang-mobile">
                         <button
                             className="lang-btn"
                             onClick={() => setIsLangOpen(!isLangOpen)}
