@@ -65,7 +65,7 @@ export default function HireMe({ dictionary }: HireMeProps) {
                                 </div>
                                 <div className="contact-info">
                                     <span className="contact-label">{dictionary.contact.line}</span>
-                                    <span className="contact-value">DevThaiLao</span>
+                                    <span className="contact-value">DevThai</span>
                                 </div>
                             </a>
 
@@ -73,7 +73,7 @@ export default function HireMe({ dictionary }: HireMeProps) {
                                 <div className="contact-icon phone-icon">📞</div>
                                 <div className="contact-info">
                                     <span className="contact-label">{dictionary.contact.phone}</span>
-                                    <span className="contact-value">WhatsApp</span>
+                                    <span className="contact-value">DevLao</span>
                                 </div>
                             </a>
                         </div>
