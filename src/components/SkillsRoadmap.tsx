@@ -112,7 +112,7 @@ const skillsData: SkillRole[] = [
         icon: '⚙️',
         color: '#eab308',
         categories: [
-            { name: 'infrastructure', items: ['NGINX', 'Amazon Web Services (AWS)', 'Microsoft Azure', 'Google Cloud Platform', 'Cloudflare', 'ELK', 'Terraform', 'Serverless', 'Istio'] },
+            { name: 'infrastructure', items: ['NGINX', 'Digital Ocean', 'Amazon Web Services (AWS)', 'Microsoft Azure', 'Google Cloud Platform', 'Cloudflare', 'ELK', 'Terraform', 'Serverless', 'Istio'] },
             { name: 'automation', items: ['Ansible', 'CHEF', 'Puppet', 'Jenkins', 'Git', 'Blue-Green Deployments', 'Continuous Deployment'] },
             { name: 'virtualization', items: ['Docker', 'Bladecenter', 'Kubernetes', 'Vagrant', 'VMWare'] },
             { name: 'monitoring', items: ['Prometheus', 'Elasticsearch', 'Performance Tuning'] },
