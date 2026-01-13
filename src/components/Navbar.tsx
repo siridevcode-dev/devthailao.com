@@ -24,8 +24,8 @@ interface NavbarProps {
 
 const languages = [
     { code: 'en', name: 'English' },
-    { code: 'th', name: 'ไทย' },
-    { code: 'lo', name: 'ລາວ' },
+    { code: 'th', name: 'Thai' },
+    { code: 'lo', name: 'Lao' },
 ];
 
 export default function Navbar({ lang, dictionary }: NavbarProps) {
