@@ -12,6 +12,24 @@ interface PortfolioProps {
 
 const projects = [
     {
+        "id": 59,
+        "title": "yan-wal-yun.com",
+        "image": "/images/yan-wal-yun.png",
+        "color": "#ef4444"
+    },
+    {
+        "id": 60,
+        "title": "th-health.co.th",
+        "image": "/images/th-health.png",
+        "color": "#0ea5e9"
+    },
+    {
+        "id": 61,
+        "title": "embark-realestate.com",
+        "image": "/images/embark-realestate.jpg",
+        "color": "#64748b"
+    },
+    {
         "id": 1,
         "title": "mango-eng.com",
         "image": "/images/033f78e3c8588c67.png",
