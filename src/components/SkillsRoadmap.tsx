@@ -78,7 +78,7 @@ const skillsData: SkillRole[] = [
         icon: '🎨',
         color: '#3b82f6',
         categories: [
-            { name: 'basics', items: ['HTML', 'HTML5', 'CSS', 'CSS3', 'Responsive Design', 'Javascript'] },
+            { name: 'basics', items: ['HTML', 'CSS', 'CSS3', 'Responsive Design', 'Javascript'] },
             { name: 'frameworks', items: ['React', 'Next.js', 'Vue', 'Angular', 'Svelte', 'SolidJS', 'Nuxt.js', 'SvelteKit', 'Webpack'] },
             { name: 'styles', items: ['Tailwind CSS', 'CSS-in JS', 'Bootstrap', 'Material UI'] },
             { name: 'stateManagement', items: ['Advanced state management', 'Redux Toolkit', 'Zustand', 'Signals'] },
