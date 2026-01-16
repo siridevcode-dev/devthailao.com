@@ -90,7 +90,7 @@ const skillsData: SkillRole[] = [
         icon: '💻',
         color: '#f97316',
         categories: [
-            { name: 'languageRuntime', items: ['Node.js', 'Javascript', 'Express', 'Fastify', 'NestJS', 'C#', 'C', 'C++', 'Python', 'Python', 'Django', 'FastAPI', 'Go', 'Fiber', 'PHP', 'Ruby on Rails', 'Java (Spring)', 'ASP.NET'] },
+            { name: 'languageRuntime', items: ['Node.js', 'Javascript', 'Express', 'Fastify', 'NestJS', 'C#', 'C', 'C++', 'Python', 'Django', 'FastAPI', 'Go', 'Fiber', 'PHP', 'Ruby on Rails', 'Java (Spring)', 'ASP.NET'] },
             { name: 'apiStandards', items: ['REST', 'GraphQL', 'gRPC'] },
             { name: 'architecture', items: ['Asynchronous processing', 'Message Queues', 'Caching', 'Redis', 'Microservices'] },
             { name: 'security', items: ['Security concepts', 'Authentication', 'JWT', 'OAuth2.1', 'API hardening'] },

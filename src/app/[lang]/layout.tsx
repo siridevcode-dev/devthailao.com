@@ -40,8 +40,8 @@ export default async function RootLayout({
     const { lang } = (await params) as { lang: Locale };
 
     return (
-        <html lang={lang} className={`${outfit.variable} ${kanit.variable} ${notoLaos.variable}`}>
-            <body>{children}</body>
+        <html lang={lang} className={`${outfit.variable} ${kanit.variable} ${notoLaos.variable}`} suppressHydrationWarning>
+            <body suppressHydrationWarning>{children}</body>
         </html>
     );
 }
