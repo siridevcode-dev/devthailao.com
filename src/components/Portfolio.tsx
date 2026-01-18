@@ -12,6 +12,12 @@ interface PortfolioProps {
 
 const projects = [
     {
+        "id": 62,
+        "title": "pengkie.com",
+        "image": "/images/pengkie.png",
+        "color": "#1e293b"
+    },
+    {
         "id": 59,
         "title": "yan-wal-yun.com",
         "image": "/images/yan-wal-yun.png",

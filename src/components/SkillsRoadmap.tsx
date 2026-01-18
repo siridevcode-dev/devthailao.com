@@ -126,7 +126,7 @@ const skillsData: SkillRole[] = [
         categories: [
             { name: 'android', items: ['Java', 'SDK'] },
             { name: 'ios', items: ['Objective C', 'Swift'] },
-            { name: 'crossPlatform', items: ['React Native', 'Ionic', 'PWA', 'Xamarin', 'Unity'] },
+            { name: 'crossPlatform', items: ['React Native', 'Ionic', 'PWA', 'Flutter', 'Xamarin', 'Unity'] },
         ],
     },
 ];
